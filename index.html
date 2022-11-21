@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css"
+    integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2
+?family=Actor">
+  <script defer src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js"
+    integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
+  <script defer src="script.js"></script>
+  <title>WeatherApp | Home</title>
+</head>
+
+<body>
+  <!--  -->
+  <header class="weatherApp-header">
+    <h1 class="weatherApp-txt">
+      <span><img class="logo" src="/img/1.svg" alt="" /></span> weatherApp
+    </h1>
+    <button class="showInfo-btn"><span><img class="logo showInfo-img sIb-size" src="/img/question-mark.svg"
+          alt="" /></span></button>
+  </header>
+  <!--  -->
+  <section class="showInfo-txt displayOFF">
+    <h2>About weatherApp</h2>
+    <p class="showInfo-txt-description">weatherApp is a small application that offers the
+      user a
+      forecast and
+      other pieces of location & weather information
+      based on the
+      interaction with the map provided by leaflet.</p>
+    <div class="showInfo-txt-legend">
+      <p><img class="showInfoIcon" src="img/wi-thermometer.svg" alt=""> = temperature in celsius </p>
+      <p><img class="showInfoIcon" src="img/wi-humidity.svg" alt=""> = humidity in % </p>
+      <p><img class="showInfoIcon" src="/img/wind-icon.svg" alt=""> = wind speed in km/h</p>
+      <p><img class="showInfoIcon" src="/img/wi-barometer.svg" alt="">= atmospheric pressure in bar</p>
+    </div>
+  </section>
+  <!--CONTAINER DISPLAY INFO  -->
+  <main class="container">
+    <section class="menu">
+      <img class="menu-info-icon" src="/img/1.svg" alt="">
+      <div class="menu-info-text">
+        <h2 class="location">Get Your Forcast</h2>
+        <h4 class="continent displayOFF"></h4>
+        <h3 class="date"></h3>
+        <h4 class="desc"></h4>
+      </div>
+    </section>
+    <!--  -->
+    <div class="map" id="map"></div>
+  </main>
+  <div class="overlay displayOFF "></div>
+  <!-- bg animation -->
+  <div class="bg-animation">
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div>
+
+</html>
