@@ -179,49 +179,49 @@ const renderMenuIconAndDesc = (data) => {
     let icon;
     switch (code) {
       case `Thunderstorm`:
-        icon = src = "/img/11.svg";
+        icon = src = "img/11.svg";
         break;
       case `Clouds`:
-        icon = src = "/img/4.svg";
+        icon = src = "img/4.svg";
         break;
       case `Drizzle`:
-        icon = src = "/img/9.svg";
+        icon = src = "img/9.svg";
         break;
       case `Rain`:
-        icon = src = "/img/10.svg";
+        icon = src = "img/10.svg";
         break;
       case `Snow`:
-        icon = src = "/img/13.svg";
+        icon = src = "img/13.svg";
         break;
       case `Clear`:
-        icon = src = "/img/1.svg";
+        icon = src = "img/1.svg";
         break;
       case `Mist`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Smoke`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Haze`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Dust`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Fog`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Sand`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Ash`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Squall`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       case `Tornado`:
-        icon = src = "/img/haze.svg";
+        icon = src = "img/haze.svg";
         break;
       default:
         alert(`hmm`);
@@ -242,10 +242,10 @@ const renderWeatherOnMap = (data) => {
           }<img class="weatherIcon" src="img/wi-humidity.svg" alt=""></div>
           <div class="menu-l wind">${
             data[4]
-          }<img class="weatherIcon" src="/img/wind-icon.svg" alt=""></div>
+          }<img class="weatherIcon" src="img/wind-icon.svg" alt=""></div>
           <div class="menu-l atm">${bar(
             data[5]
-          )} <img class="weatherIcon" src="/img/wi-barometer.svg" alt=""></div>
+          )} <img class="weatherIcon" src="img/wi-barometer.svg" alt=""></div>
         </div>`;
   return html;
 };
