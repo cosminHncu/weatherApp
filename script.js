@@ -57,7 +57,6 @@ const getDate = () => {
   ];
   const now = new Date();
   const day = new Date().getDate();
-  console.log("NOW: ", new Date().getDay());
   const month = months.filter((m, indx) =>
     indx === new Date().getMonth() ? m : ``
   );
@@ -69,7 +68,6 @@ const getLocation = async (lat, lng) => {
       `https://api.opencagedata.com/geocode/v1/json?q=${lat}+${lng}&key=863f242f7191482cbba7f7bf999c9391`
     );
     const data = await response.json();
-    console.log(data.results);
     const [resp] = data.results;
     let countryData = resp.components;
     const {
@@ -173,7 +171,6 @@ const renderMenuIconAndDesc = (data) => {
   //const wCode = weatherPack.icon;
   //console.log(wCode);
   const { main, description } = weatherPack;
-  console.log([main, description]);
   menuDescription.textContent = `${main.toUpperCase()} - ${description}`;
   const getIcon = (code) => {
     let icon;
@@ -260,7 +257,6 @@ const clickOnMap = async (e) => {
   const dataWeather = await getWeather(lat, lng);
   const dataTime = getTime();
   const dataDate = getDate();
-  console.log("Current date: ", dataDate);
   renderMenu_date_space([dataDate, dataTime]);
   renderMenu_location(dataLocation);
   renderMenuIconAndDesc(dataWeather);
