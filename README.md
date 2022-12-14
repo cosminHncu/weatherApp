@@ -10,7 +10,9 @@ Stack:
 Resources:
 - leflet library for the map (https://leafletjs.com/)
 - OpenCage API for geocoding (https://opencagedata.com/)
--OpenWeather API for reciving the forcast data (https://openweathermap.org/api)
+- OpenWeather API for reciving the forcast data (https://openweathermap.org/api)
+
+Preview:
 ![Screenshot (11)](https://user-images.githubusercontent.com/101092190/207656892-342491ba-69de-48c8-9e92-d540726556e1.png)
 
 ![Screenshot (14)](https://user-images.githubusercontent.com/101092190/207656943-bf8bdb7f-1527-45ed-8f89-760ecfc11d37.png)
