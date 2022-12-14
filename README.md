@@ -1,12 +1,12 @@
 # weatherApp
 
 weatherApp is a small application that offers the user a forecast and other pieces of information related based on the interaction with the map.
-- link:  cosminhncu.github.io/weatherApp/ 
+- link: https://cosminhncu.github.io/weatherApp/
 
 Stack:
--HTML;
--CSS;
--Javascript (ES6);
+- HTML;
+- CSS;
+- Javascript (ES6);
 
 Resources:
 - leflet library for the map (https://leafletjs.com/)
