@@ -1,6 +1,7 @@
 # weatherApp
+The weatherApp project is a simple and intuitive weather forecasting tool that uses the leaflet library and two APIs to provide users with a map-based interface and real-time weather information. By interacting with the map, users can select a location and view a small forecast for that location, including current temperature and weather conditions. The app uses one API to retrieve the geolocation data for the selected location and another API to retrieve the weather forecast information.
 
-The weatherApp is a web-based application that uses the Leaflet library to display a map. By tapping on the map, users can get the exact location and view a detailed weather forecast and geodata for that location. The app is designed to be user-friendly and provides accurate and up-to-date information to help users plan their day and make informed decisions. The weatherApp is a valuable tool for anyone who wants to stay informed about the weather in their area
+Overall, weatherApp provides an easy and convenient way to access up-to-date weather information for any location on the map. Whether you're planning a trip, checking the weather for your daily commute, or simply curious about the weather in a new location, weatherApp has you covered.
 
  
 - link: https://cosminhncu.github.io/weatherApp/
