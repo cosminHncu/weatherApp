@@ -11,7 +11,7 @@ The UI is designed by me.
 Stack:
 - HTML;
 - CSS;
-- Javascript (ES6);
+- Javascript;
 
 Resources:
 - leflet library for the map (https://leafletjs.com/)
