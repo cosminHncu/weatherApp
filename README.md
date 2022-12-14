@@ -1,6 +1,8 @@
 # weatherApp
 
-weatherApp is a small application that offers the user a forecast and other pieces of information related based on the interaction with the map.
+The weatherApp is a web-based application that uses the Leaflet library to display a map. By tapping on the map, users can get the exact location and view a detailed weather forecast and geodata for that location. The app is designed to be user-friendly and provides accurate and up-to-date information to help users plan their day and make informed decisions. The weatherApp is a valuable tool for anyone who wants to stay informed about the weather in their area
+
+ 
 - link: https://cosminhncu.github.io/weatherApp/
 
 Stack:
