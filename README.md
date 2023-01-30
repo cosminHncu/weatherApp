@@ -4,7 +4,7 @@ The weatherApp project is a simple and intuitive weather forecasting tool that u
 Overall, weatherApp provides an easy and convenient way to access up-to-date weather information for any location on the map. Whether you're planning a trip, checking the weather for your daily commute, or simply curious about the weather in a new location, weatherApp has you covered.
 
  
-- link: https://cosminhncu.github.io/weatherApp/
+- Link: https://cosminhncu.github.io/weatherApp/
 
 The UI is designed by me.
 
