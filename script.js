@@ -69,8 +69,10 @@ const getLocation = async (lat, lng) => {
     );
     const data = await response.json();
     const [resp] = data.results;
+    console.log(resp);
     let countryData = resp.components;
     const {
+      county,
       continent,
       country,
       village,
@@ -80,7 +82,9 @@ const getLocation = async (lat, lng) => {
       neighbourhood,
       state,
     } = countryData;
+
     countryData = [
+      county,
       continent,
       country,
       village,
@@ -138,6 +142,7 @@ const renderMenu_date_space = (data) => {
 
 const renderMenu_location = (data) => {
   const [
+    county,
     continent,
     country,
     village,
@@ -159,6 +164,8 @@ const renderMenu_location = (data) => {
     ? neighbourhood
     : state
     ? state
+    : county
+    ? county
     : `N/A`;
   menuInfoContinent.textContent = `${continent}`;
   menuInfoContinent.classList.remove(`displayOFF`);
